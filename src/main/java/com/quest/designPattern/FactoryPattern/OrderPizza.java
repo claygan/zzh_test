@@ -17,11 +17,15 @@ package com.quest.designPattern.FactoryPattern;
 public class OrderPizza {
 
 	public static void main(String[] args) {
-		PizzaStore store = new NYPizzaStore();
-		//
-		store.orderPizza("viggie");
-		//
-		store.orderPizza("cheese");
+//		PizzaStore store = new NYPizzaStore();
+//		//
+//		store.orderPizza("viggie");
+//		//
+//		store.orderPizza("cheese");
+		
+		//抽象方法工厂测试
+		PizzaStore nyPizzaStore = new NYPizzaStore();
+		nyPizzaStore.orderPizza("clams");
 		
 	}
 

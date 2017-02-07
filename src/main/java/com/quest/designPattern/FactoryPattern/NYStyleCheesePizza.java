@@ -7,6 +7,9 @@
  */
 
 package com.quest.designPattern.FactoryPattern;
+
+import com.quest.designPattern.FactoryPattern.pizza.Pizza;
+
 /** 
  * @ClassName: NYStyleCheesePizza
  * @Description: TODO(用一句话描述这个类)

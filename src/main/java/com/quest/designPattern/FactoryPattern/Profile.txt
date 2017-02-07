@@ -1,4 +1,4 @@
-FactoryPattern工厂模式：
+FactoryPattern工厂模式：(将对象创建的过程封装起来，以便将代码从具体类解耦)
 
 定义了一个创建对象的接口，但由子类决定要实例化的类是哪一个，工厂方法让类把实例化推迟到子类。
 
@@ -10,4 +10,8 @@ Creater:factoryMethod、anOpration
 2.产品类 
 Product
 =>ConcreteProduct
+
+
+抽象工厂模式：
+提供了一个接口，用于创建相关或依赖对象的家族，而不是明确指定具体类
 
