@@ -17,6 +17,10 @@ package com.quest.thread;
 public class MyThread extends Thread {
 	private volatile int count = 5;
 
+	public MyThread(String name) {
+		super(name);
+	}
+
 	@Override
 	synchronized public void run() {
 		super.run();
